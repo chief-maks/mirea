@@ -1,4 +1,4 @@
-package Lab_4;
+package Lab_4W;
 
 public class MacBook implements Priceable {
     private double productionYear;

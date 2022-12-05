@@ -1,4 +1,4 @@
-package Pr_6;
+package Pr_6W;
 
 public class Student {
     private String name;

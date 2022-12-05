@@ -1,4 +1,4 @@
-package Pr_6;
+package Pr_6W;
 
 public class Main {
     public static void main(String[] args) {

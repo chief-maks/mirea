@@ -1,4 +1,4 @@
-package Lab_5;
+package Lab_5W;
 
 import javax.swing.*;
 import java.awt.*;
