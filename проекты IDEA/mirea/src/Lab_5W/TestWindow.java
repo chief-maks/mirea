@@ -4,15 +4,15 @@ import javax.swing.*;
 import java.awt.*;
 
 public class TestWindow extends JFrame {
-    Image img1 = (new ImageIcon("src/Lab_5/imagesBird/bird1.png")).getImage();
-    Image img2 = (new ImageIcon("src/Lab_5/imagesBird/bird2.png")).getImage();
-    Image img3 = (new ImageIcon("src/Lab_5/imagesBird/bird3.png")).getImage();
-    Image img4 = (new ImageIcon("src/Lab_5/imagesBird/bird4.png")).getImage();
-    Image img5 = (new ImageIcon("src/Lab_5/imagesBird/bird5.png")).getImage();
-    Image img6 = (new ImageIcon("src/Lab_5/imagesBird/bird6.png")).getImage();
-    Image img7 = (new ImageIcon("src/Lab_5/imagesBird/bird7.png")).getImage();
-    Image img8 = (new ImageIcon("src/Lab_5/imagesBird/bird8.png")).getImage();
-    Image img9 = (new ImageIcon("src/Lab_5/imagesBird/bird9.png")).getImage();
+    Image img1 = (new ImageIcon("src/Lab_5W/imagesBird/bird1.png")).getImage();
+    Image img2 = (new ImageIcon("src/Lab_5W/imagesBird/bird2.png")).getImage();
+    Image img3 = (new ImageIcon("src/Lab_5W/imagesBird/bird3.png")).getImage();
+    Image img4 = (new ImageIcon("src/Lab_5W/imagesBird/bird4.png")).getImage();
+    Image img5 = (new ImageIcon("src/Lab_5W/imagesBird/bird5.png")).getImage();
+    Image img6 = (new ImageIcon("src/Lab_5W/imagesBird/bird6.png")).getImage();
+    Image img7 = (new ImageIcon("src/Lab_5W/imagesBird/bird7.png")).getImage();
+    Image img8 = (new ImageIcon("src/Lab_5W/imagesBird/bird8.png")).getImage();
+    Image img9 = (new ImageIcon("src/Lab_5W/imagesBird/bird9.png")).getImage();
 
     public TestWindow(String name) throws InterruptedException {
         setTitle(name);

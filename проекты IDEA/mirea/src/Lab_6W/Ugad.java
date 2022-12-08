@@ -1,4 +1,4 @@
-package Lab_6;
+package Lab_6W;
 
 import javax.swing.*;
 import java.awt.*;
@@ -23,6 +23,8 @@ public class Ugad extends JFrame {
         add(jta);
         jta.setFont(fnt);
         add(button);
+
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         button.addActionListener(new ActionListener(){
             public void actionPerformed (ActionEvent ae){

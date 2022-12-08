@@ -1,4 +1,4 @@
-package Pr_7;
+package Pr_7W;
 
 import java.util.Stack;
 
