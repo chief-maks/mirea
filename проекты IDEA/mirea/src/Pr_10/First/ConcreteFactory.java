@@ -1,4 +1,4 @@
-package Pr_10;
+package Pr_10.First;
 
 public class ConcreteFactory implements ComplexAbstractFactory {
     @Override

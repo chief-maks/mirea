@@ -1,4 +1,4 @@
-package Pr_10;
+package Pr_10.First;
 
 public class Complex {
     private int image;

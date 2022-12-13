@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Test {
-    public static void exOne() {
+    public static void exOne() {   // дозаписываем
         Scanner in = new Scanner(System.in);
         String text = in.nextLine();
         FileWriter open = null;
@@ -19,7 +19,7 @@ public class Test {
         }
     }
 
-    public static void exTwo() {
+    public static void exTwo() {    // вывод из файла
         FileReader open = null;
         try {
             open = new FileReader("D:\\lab8.txt");
@@ -32,12 +32,12 @@ public class Test {
         }
     }
 
-    public static void exThree() {
+    public static void exThree() {     // перезаписываем
         Scanner in = new Scanner(System.in);
         String text = in.nextLine();
         FileWriter open = null;
         try {
-            open = new FileWriter("D:\\lab8.txt", false);
+            open = new FileWriter("D:\\lab8.txt");   // по умолчанию append - false(можно не указывать)
             open.append(text);
             open.close();
         } catch (IOException e) {
@@ -45,7 +45,7 @@ public class Test {
         }
     }
 
-    public static void exFour() {
+    public static void exFour() {            // дозаписываем
         Scanner in = new Scanner(System.in);
         String text = in.nextLine();
         FileWriter open = null;

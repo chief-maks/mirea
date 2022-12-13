@@ -10,7 +10,7 @@ public class Exception5 {
             System.out.println(key);
         }
         catch (NullPointerException e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
 }

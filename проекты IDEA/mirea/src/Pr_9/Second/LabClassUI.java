@@ -1,13 +1,10 @@
 package Pr_9.Second;
 
-import Lab_5W.ImageComponent;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.ArrayList;
 
 public class LabClassUI extends JFrame {
@@ -44,11 +41,7 @@ public class LabClassUI extends JFrame {
     public LabClassUI() {
         super("Students");
         setSize(500, 500);
-        /*
-        Image img1 = (new ImageIcon("src/Lab_5W/imagesBird/img_1.png")).getImage();
-        add(new ImageComponent(img1));
-        setVisible(true);
-         */
+
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         generateAL();
@@ -116,8 +109,10 @@ public class LabClassUI extends JFrame {
     private void addStudent() {
         String FIO = JOptionPane.showInputDialog("Input name");
         try {
-            if (FIO.equals("")) throw new EmptyStringException();
-        } catch (NullPointerException e) { return; }
+            if (FIO.equals("")) throw new EmptyStringException();   // если ""
+        } catch (NullPointerException e) {   // если null
+            return;
+        }
         String GPA = JOptionPane.showInputDialog("Input average score");
         int intGPA;
         try {
@@ -201,20 +196,6 @@ public class LabClassUI extends JFrame {
         arr.set(end, swapTemp);
 
         return i + 1;
-    }
-
-
-    private class ImageComponent extends JPanel {   // для прикола
-        private Image image;
-        public ImageComponent(Image image) {
-            this.image = image;
-        }
-
-        @Override
-        public void paintComponent(Graphics g) {
-            super.paintComponent(g);
-            g.drawImage(image, 440, 440, null);
-        }
     }
 }
 
